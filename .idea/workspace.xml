@@ -2,7 +2,119 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824e99b-874c-4e6f-9684-57d12f246759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Beskrivning.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/400.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/401.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/402.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/403.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/404.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/405.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/406.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/407.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/408.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/409.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/410.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/411.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/412.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/413.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/414.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/415.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/416.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/417.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/418.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/428.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/429.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/431.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/500.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/501.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/502.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/503.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/504.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/505.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/511.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Auth/Basic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Utility/CaseInsensitiveDictionary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Utility/FilteredIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Proxy/HTTP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Response/Headers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Hooker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Hooks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/IDNAEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/IPv6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/IRI.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Cookie/Jar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Calls/MarvelRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Proxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/SSL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Transport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Exception/HTTP/Unknown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/a.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/inheritance/shared/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/ext/adminmedia.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/b.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/emails/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Transport/cURL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Transport/cacert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/ext/cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/emails/campaign1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/emails/campaign2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/emails/campaign3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/context.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/context_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/datatype.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/ext/design.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/errors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/extended.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/filters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmccue/library/Requests/Transport/fsockopen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/ext/cakephp/h2o.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/extras/cakephp/h2o.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/h2o_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/ext/i18n.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/include_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/simple/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/caching/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/i18n/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/inheritance/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/simple/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/inherit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/inheritance_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/inheritance/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/simple/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/loader_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/loaders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/i18n/locale/de/LC_MESSAGES/messages.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/i18n/locale/fi/LC_MESSAGES/messages.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/i18n/locale/fr/LC_MESSAGES/messages.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/nodes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/nodes_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/inheritance/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/parser_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/runner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/inheritance/section.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/extensions/ext/site_tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/spec_helper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/h2o/tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/tags_spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/spec/templates/shared/terms_and_conditions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h2o/example/i18n/trans.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="1DV449_Projekt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +137,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Beskrivning.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Beskrivning.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Beskrivning.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="190" selection-end="190" vertical-scroll-proportion="0.09026549" vertical-offset="0" max-vertical-offset="565">
+            <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="18" selection-start="178" selection-end="178" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
+              <folding>
+                <element signature="e#6#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="6" selection-start="64" selection-end="64" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarvelRequest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Calls/MarvelRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="21" selection-start="226" selection-end="226" vertical-scroll-proportion="0.20623916" vertical-offset="0" max-vertical-offset="577">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -51,10 +192,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Beskrivning.md" />
+        <option value="$PROJECT_DIR$/View/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/Calls/MarvelRequest.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
   <component name="ProjectFrameBounds">
     <option name="x" value="54" />
     <option name="y" value="-8" />
@@ -68,7 +213,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -105,6 +250,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rmccue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h2o" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1DV449_Projekt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -112,6 +317,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\Documents\GitHub\1DV449_Projekt" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -147,6 +358,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -180,14 +392,58 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rmccue/library/Requests/Auth/Basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.55979204" vertical-offset="0" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="190" selection-end="190" vertical-scroll-proportion="0.09026549" vertical-offset="0" max-vertical-offset="565">
+        <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h2o/ext/cakephp/h2o.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h2o/h2o.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.09042553" vertical-offset="51" max-vertical-offset="4624">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="178" selection-end="178" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="64" selection-end="64" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calls/MarvelRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="226" selection-end="226" vertical-scroll-proportion="0.20623916" vertical-offset="0" max-vertical-offset="577">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
