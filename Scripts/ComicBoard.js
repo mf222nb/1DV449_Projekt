@@ -11,12 +11,21 @@ var ComicBoard = {
 
                 //console.log(data);
                 for(var i = 0; i < data.data["results"].length; i++){
-                    console.log(data.data["results"][i].title);
+                    ComicBoard.renderTitles(data.data["results"][i].title);
                 }
             }
         })
-    }
+    },
+    renderTitles:function(title){
+        var list = document.getElementById("list");
+        var aTag = document.createElement("a");
+        var li = document.createElement("li");
 
+        aTag.textContent = title;
+
+        li.appendChild(aTag);
+        list.appendChild(li);
+    }
 }
 
 window.addEventListener("load", ComicBoard.init);
