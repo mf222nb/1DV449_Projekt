@@ -1,6 +1,7 @@
 var ComicBoard = {
     init:function(){
         ComicBoard.getComics();
+        ComicBoard.getComicBook();
     },
     getComics:function(){
         $.ajax({
@@ -9,9 +10,8 @@ var ComicBoard = {
             success: function(data){
                 data = JSON.parse(data);
 
-                //console.log(data);
                 for(var i = 0; i < data.data["results"].length; i++){
-                    ComicBoard.renderTitles(data.data["results"][i].title);
+                    ComicBoard.renderTitles(data.data["results"][i].name);
                 }
             }
         })
@@ -22,9 +22,16 @@ var ComicBoard = {
         var li = document.createElement("li");
 
         aTag.textContent = title;
+        aTag.href = "#"+title;
+        aTag.id = title;
 
         li.appendChild(aTag);
         list.appendChild(li);
+    },
+    getComicBook:function(){
+        $('#list').on('click', function(v){
+            console.log(v.target.id);
+        })
     }
 }
 
