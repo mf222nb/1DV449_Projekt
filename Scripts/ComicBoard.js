@@ -1,4 +1,5 @@
 var ComicBoard = {
+    title:undefined,
     init:function(){
         ComicBoard.getComics();
         ComicBoard.getComicBook();
@@ -16,6 +17,17 @@ var ComicBoard = {
             }
         })
     },
+    getInformation:function(){
+        $.ajax({
+            type: "POST",
+            url: "Calls/WikiRequest.php",
+            headers: { 'Api-User-Agent': '' },
+            success:function(data){
+                data = JSON.parse(data);
+                console.log(data);
+            }
+        })
+    },
     renderTitles:function(title){
         var list = document.getElementById("list");
         var aTag = document.createElement("a");
@@ -30,7 +42,8 @@ var ComicBoard = {
     },
     getComicBook:function(){
         $('#list').on('click', function(v){
-            console.log(v.target.id);
+            this.title = v.target.id;
+            ComicBoard.getInformation();
         })
     }
 }
