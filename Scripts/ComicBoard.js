@@ -12,15 +12,16 @@ var ComicBoard = {
                 data = JSON.parse(data);
 
                 for(var i = 0; i < data.data["results"].length; i++){
-                    ComicBoard.renderTitles(data.data["results"][i].name);
+                    ComicBoard.renderCharacters(data.data["results"][i].name);
                 }
             }
         })
     },
     getInformation:function(){
         $.ajax({
-            type: "POST",
+            type: "GET",
             url: "Calls/WikiRequest.php",
+            data: {title: ComicBoard.title},
             headers: { 'Api-User-Agent': '' },
             success:function(data){
                 data = JSON.parse(data);
@@ -28,21 +29,22 @@ var ComicBoard = {
             }
         })
     },
-    renderTitles:function(title){
+    renderCharacters:function(name){
         var list = document.getElementById("list");
         var aTag = document.createElement("a");
         var li = document.createElement("li");
 
-        aTag.textContent = title;
-        aTag.href = "#"+title;
-        aTag.id = title;
+        aTag.textContent = name;
+        aTag.href = "#"+name;
+        aTag.id = name;
 
         li.appendChild(aTag);
         list.appendChild(li);
     },
     getComicBook:function(){
         $('#list').on('click', function(v){
-            this.title = v.target.id;
+            ComicBoard.title = v.target.id;
+            //console.log(ComicBoard.title);
             ComicBoard.getInformation();
         })
     }
