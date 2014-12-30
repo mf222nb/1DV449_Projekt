@@ -25,7 +25,13 @@ var ComicBoard = {
             headers: { 'Api-User-Agent': '' },
             success:function(data){
                 data = JSON.parse(data);
-                console.log(data);
+                var pageId = data.query.pageids[0];
+                var readData = data.query.pages[pageId]["revisions"][0]["*"];
+                console.log(readData);
+                /*var content = document.getElementById("content");
+                var pTag = document.createElement("p");
+                pTag.textContent = data["query"]["pages"][pageId]["revisions"][0]["*"];
+                content.appendChild(pTag);*/
             }
         })
     },
@@ -44,7 +50,6 @@ var ComicBoard = {
     getComicBook:function(){
         $('#list').on('click', function(v){
             ComicBoard.title = v.target.id;
-            //console.log(ComicBoard.title);
             ComicBoard.getInformation();
         })
     }
