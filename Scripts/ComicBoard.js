@@ -25,13 +25,23 @@ var ComicBoard = {
             headers: { 'Api-User-Agent': '' },
             success:function(data){
                 data = JSON.parse(data);
+                var content = document.getElementById("content");
+                content.innerHTML = "";
                 var pageId = data.query.pageids[0];
-                var readData = data.query.pages[pageId]["revisions"][0]["*"];
-                console.log(readData);
-                /*var content = document.getElementById("content");
-                var pTag = document.createElement("p");
-                pTag.textContent = data["query"]["pages"][pageId]["revisions"][0]["*"];
-                content.appendChild(pTag);*/
+                if(pageId < 0){
+                    var pTag = document.createElement("p");
+                    pTag.textContent = "Missing information";
+                    content.appendChild(pTag);
+                }
+                else{
+                    var readData = data.query.pages[pageId]["revisions"][0]["*"];
+                    $("#content").append(readData);
+                    var redirect = document.getElementsByClassName('redirectText')[0].textContent;
+                    if(redirect != ''){
+                        ComicBoard.title = redirect;
+                        ComicBoard.getInformation();
+                    }
+                }
             }
         })
     },
