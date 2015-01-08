@@ -6,10 +6,25 @@
     <link href="./Style/style.css" rel="stylesheet">
 </head>
 <body>
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+    <button id="logout" onclick="checkLogout()">Log out</button>
+    <div
+            class="fb-like"
+            data-share="true"
+            data-width="450"
+            data-show-faces="true">
+    </div>
+
+    <script src="./Scripts/FacebookOauth.js"></script>
     <div class="container-fluid">
         <div id="list" class="row col-md-5"></div>
 
         <div id="content" class="row col-md-7"></div>
+    </div>
+    <div id="status">
+    </div>
+    <div id="fb-root">
     </div>
     <script src="./Scripts/jquery-1.10.2.min.js"></script>
     <script src="./Scripts/ComicBoard.js"></script>
