@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html manifest="manifest.appcache">
 <head>
-    <title></title>
+    <title>Marvel character search</title>
     <link href="./Style/bootstrap.min.css" rel="stylesheet">
     <link href="./Style/style.css" rel="stylesheet">
 </head>
 <body>
+    <header class="page-header">
+        <h1 class="text-center">Marvel character search</h1>
+    </header>
+    <div id="facebook">
     <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
     </fb:login-button>
-    <button id="logout" onclick="checkLogout()">Log out</button>
     <div
             class="fb-like"
             data-share="true"
             data-width="450"
             data-show-faces="true">
     </div>
+    </div>
 
     <script src="./Scripts/FacebookOauth.js"></script>
     <div class="container-fluid">
+        <form method="post" action="" id="marvelCharacter">
+            <label for="character" id="characterLabel">Search a Marvel character</label>
+            <br/>
+            <input type="text" name="character" id="character">
+            <input type="button" class="submit" value="Search">
+        </form>
         <div id="list" class="row col-md-5"></div>
 
         <div id="content" class="row col-md-7"></div>

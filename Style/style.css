@@ -1,6 +1,22 @@
 body{
-    background-image: url("../Pics/Marvel_logo.jpg");
+    background-image: url("../Pics/Marvel_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+label{
+    color: #ffffff;
+}
+
+h1{
+    color: #ffffff;
+    font-style: italic;
+}
+
 #list{
     max-height: 600px;
     overflow-y: scroll;
@@ -14,21 +30,47 @@ body{
 #content{
     margin-left: 20px;
     padding: 0;
-    color: #000000;
-    /*text-shadow: 0 1px 1px #fff;*/
-    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    color: #ffffff;
 }
 
 #content a{
-    color: #000000;
+    color: #ffffff;
     pointer-events: none;
     cursor: default;
 }
 
-.infobox{
+#content .infobox a{
     color: #000000;
 }
 
-.infobox a{
+#content .infobox td{
+    color: #000000;
+}
+
+#content .infobox th{
+    color: #000000;
+}
+
+#content .vertical-navbox li{
+    color: #000000;
+}
+
+#content .vertical-navbox td{
+    color: #000000;
+}
+
+#content .vertical-navbox li a{
+    color: #000000;
+}
+
+#content .vertical-navbox th a{
+    color: #000000;
+}
+
+#content .vertical-navbox th{
+    color: #000000;
+}
+
+#content .vertical-navbox a{
     color: #000000;
 }

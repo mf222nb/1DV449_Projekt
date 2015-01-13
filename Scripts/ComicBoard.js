@@ -10,31 +10,40 @@ var ComicBoard = {
         }
     },
     getComics:function(){
-        $.ajax({
-            type: "GET",
-            url: "Calls/MarvelRequest.php",
-            success: function(data){
-                if(sessionStorage && sessionStorage.getItem("marvel")){
-                    data = sessionStorage.getItem("marvel");
-                    data = JSON.parse(data);
-                }
-                else if(sessionStorage){
-                    sessionStorage.setItem("marvel", data);
-                    data = JSON.parse(data);
-                }
-                for(var i = 0; i < data.data["results"].length; i++){
-                    ComicBoard.renderCharacters(data.data["results"][i].name);
-                }
-            },
-            error: function(){
-                var content = document.getElementById("content");
-                content.innerHTML = "";
-                var pTag = document.createElement("p");
-
-                pTag.textContent = "Tyvärr fanns det ingen data att visa";
-
-                content.appendChild(pTag);
+        $("#character").keypress(function(event){
+            if(event.keyCode == 13){
+                event.preventDefault();
+                $(".submit").click();
             }
+        });
+        $(".submit").click(function(){
+            var character = $("#character").val();
+            $.ajax({
+                type: "POST",
+                url: "Calls/MarvelRequest.php",
+                data: {character: character},
+                success: function(data){
+                    if(sessionStorage){
+                        sessionStorage.setItem("marvel", data);
+                        data = JSON.parse(data);
+                    }
+                    if(data.data["results"].length === 0){
+                        var content = document.getElementById("content");
+                        content.innerHTML = "";
+                        var pTag = document.createElement("p");
+
+                        pTag.textContent = "Your search didn't match anything, please do another search";
+
+                        content.appendChild(pTag);
+                    }
+                    for(var i = 0; i < data.data["results"].length; i++){
+                        ComicBoard.renderCharacters(data.data["results"][i].name);
+                    }
+                },
+                error: function(){
+                    ComicBoard.noData();
+                }
+            })
         })
     },
     getInformation:function(){
@@ -47,6 +56,7 @@ var ComicBoard = {
                 data = JSON.parse(data);
                 var content = document.getElementById("content");
                 content.innerHTML = "";
+                if(data.query.pageids != undefined){
                 var pageId = data.query.pageids[0];
                 if(pageId < 0){
                     var pTag = document.createElement("p");
@@ -58,6 +68,7 @@ var ComicBoard = {
                     $("#content").append(readData);
 
                     if(document.getElementsByClassName('redirectText').length !== 0){
+
                         var redirect = document.getElementsByClassName('redirectText')[0].textContent;
 
                         if(redirect != ''){
@@ -66,17 +77,21 @@ var ComicBoard = {
                         }
                     }
                 }
+                }
             },
             error: function(){
-                var content = document.getElementById("content");
-                content.innerHTML = "";
-                var pTag = document.createElement("p");
-
-                pTag.textContent = "Tyvärr fanns det ingen data att visa";
-
-                content.appendChild(pTag);
+                ComicBoard.noData();
             }
         })
+    },
+    noData:function(){
+        var content = document.getElementById("content");
+        content.innerHTML = "";
+        var pTag = document.createElement("p");
+
+        pTag.textContent = "Unfortunately there is no data to show";
+
+        content.appendChild(pTag);
     },
     renderCharacters:function(name){
         var list = document.getElementById("list");
@@ -89,7 +104,6 @@ var ComicBoard = {
 
         li.appendChild(aTag);
         list.appendChild(li);
-
     },
     getComicBook:function(){
         $('#list').on('click', function(v){
@@ -105,6 +119,11 @@ var ComicBoard = {
             for(var i = 0; i < data.data["results"].length; i++){
                 ComicBoard.renderCharacters(data.data["results"][i].name);
             }
+
+            var content = document.getElementById("content");
+            var p = document.createElement("p");
+            p.textContent = "You are not connected to the internet, please connect to search more and see information about the characters";
+            content.appendChild(p);
         }
         else{
             var content = document.getElementById("content");

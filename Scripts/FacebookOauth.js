@@ -33,12 +33,12 @@ function checkLoginState() {
     });
 }
 
-logout.onclick = function checkLogout(){
+/*logout.onclick = function checkLogout(){
     FB.logout(function(response) {
         // Person is now logged out
     });
     document.getElementById("status").innerHTML = "You have now logged out";
-}
+}*/
 window.fbAsyncInit = function() {
     FB.init({
         appId      : '{your-app-id}',
