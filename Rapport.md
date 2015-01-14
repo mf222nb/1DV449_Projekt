@@ -53,13 +53,13 @@ hela tiden och blir då lite snabbare.
 
 ###Offline-first
 
-Kring offline-first har jag tänkt som så att jag har skapat mig en manifest - fil som jag cachar statiska filer i vilket
-gör att om jag skulle gå in på in sida när man inte har något nät så kan jag komma in på sidan och se den men man får
-upp ett meddelande som uppnanar en att ansluta till internet om man vill ta del av applikationen. Jag har även en lista
-sparad i sessionstorage som gör att om man använder applikationen och nätet skulle gå ner och man som användare skulle
-ladda om sidan kan man alltid få ut sin senaste sökning i listan men man kan inte göra mycket mer än det och om inget
-skulle finnas i sessionstorage så får man ett meddelande som säger att man inte har någon anslutning till nätet så då
-uppmanas man att göra det för att ta del av applikationen.
+Kring offline-first har jag tänkt som så att jag har skapat mig en manifest - fil som jag cachar statiska filer och
+några javascript - filer i vilket gör att om jag skulle gå in på in sida när man inte har något nät så kan jag komma
+in på sidan och se den men man får upp ett meddelande som uppnanar en att ansluta till internet om man vill ta del av
+applikationen. Jag har även en lista sparad i sessionstorage som gör att om man använder applikationen och nätet skulle
+gå ner och man som användare skulle ladda om sidan kan man alltid få ut sin senaste sökning i listan men man kan inte
+göra mycket mer än det och om inget skulle finnas i sessionstorage så får man ett meddelande som säger att man inte har
+någon anslutning till nätet så då uppmanas man att ansluta sig till internet för att ta del av applikationen.
 
 ###Egen reflektion kring projektet
 
