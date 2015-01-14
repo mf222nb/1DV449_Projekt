@@ -4,6 +4,8 @@ Style/bootstrap.min.css
 Style/style.css
 templates/index.html
 index.php
+Scripts/ComicBoard.min.js
+Scripts/jquery-1.10.2.min.js
 
 NETWORK:
 *

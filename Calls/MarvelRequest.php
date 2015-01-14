@@ -7,9 +7,6 @@ Requests::register_autoloader();
 $time = time();
 $publicKey = "8336ebf74ee6d9e874c4a55361f06cbd";
 
-$cachefile = "marvel.json";
-$cachetime = 86400;
-
 $character = $_POST['character'];
 
 //Måste göra en md5-kryptering av en timestamp, den publika API-nyckeln och den privata API-nyckeln för att kunna göra ett kall till api:t från servern

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824e99b-874c-4e6f-9684-57d12f246759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rapport.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pics/Marvel_background.jpg" afterPath="$PROJECT_DIR$/Pics/Marvel_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scripts/ComicBoard.min.js" />
+      <change type="DELETED" beforePath="C:\Users\Martin\Documents\GitHub\1DV449_Projekt\Calls\marvel.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beskrivning.md" afterPath="$PROJECT_DIR$/Beskrivning.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/ComicBoard.js" afterPath="$PROJECT_DIR$/Scripts/ComicBoard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts/FacebookOauth.js" afterPath="$PROJECT_DIR$/Scripts/FacebookOauth.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calls/MarvelRequest.php" afterPath="$PROJECT_DIR$/Calls/MarvelRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rapport.md" afterPath="$PROJECT_DIR$/Rapport.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.appcache" afterPath="$PROJECT_DIR$/manifest.appcache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/style.css" afterPath="$PROJECT_DIR$/Style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="1DV449_Projekt.iws" />
@@ -33,22 +33,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rapport.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rapport.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rapport.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="37" selection-start="6656" selection-end="6656" vertical-scroll-proportion="2.5" vertical-offset="0" max-vertical-offset="1462">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="204">
+            <state line="10" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -57,52 +57,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="294" selection-end="294" vertical-scroll-proportion="-3.9230769" vertical-offset="51" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.appcache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest.appcache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Style/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.20446736" vertical-offset="0" max-vertical-offset="1377">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacebookOauth.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scripts/FacebookOauth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="3" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarvelRequest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calls/MarvelRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="237" selection-end="237" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WikiRequest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calls/WikiRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="89" selection-end="113" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+            <state line="1" column="24" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -111,7 +66,43 @@
       <file leaf-file-name="ComicBoard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
+            <state line="106" column="6" selection-start="3711" selection-end="3711" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2431">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.appcache" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.appcache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="1" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComicBoard.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="2609" selection-start="0" selection-end="2709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookOauth.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/FacebookOauth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="21" selection-start="2645" selection-end="2645" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -136,13 +127,16 @@
         <option value="$PROJECT_DIR$/Calls/WikiRequest.php" />
         <option value="$PROJECT_DIR$/Scripts/FacebookOuath.js" />
         <option value="$PROJECT_DIR$/Scripts/FacebookOauth.js" />
-        <option value="$PROJECT_DIR$/manifest.appcache" />
+        <option value="$PROJECT_DIR$/Style/style.css" />
         <option value="$PROJECT_DIR$/Beskrivning.md" />
         <option value="$PROJECT_DIR$/Rapport.md" />
         <option value="$PROJECT_DIR$/Calls/MarvelRequest.php" />
+        <option value="$PROJECT_DIR$/Scripts/FacebookOauth.min.js" />
         <option value="$PROJECT_DIR$/Scripts/ComicBoard.js" />
+        <option value="$PROJECT_DIR$/Scripts/ComicBoard.min.js" />
+        <option value="$PROJECT_DIR$/manifest.appcache" />
+        <option value="$PROJECT_DIR$/manifest1.appcache" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/Style/style.css" />
       </list>
     </option>
   </component>
@@ -179,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,13 +277,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1DV449_Laboration1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1DV449_Laboration3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -300,10 +294,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Martin\Documents\GitHub\1DV449_Projekt" />
       <recent name="C:\Users\Martin\Documents\GitHub\1DV449_Projekt\Pics" />
       <recent name="C:\Users\Martin\Documents\GitHub\1DV449_Projekt\Style" />
       <recent name="C:\Users\Martin\Documents\GitHub\1DV449_Projekt\Scripts" />
-      <recent name="C:\Users\Martin\Documents\GitHub\1DV449_Projekt" />
     </key>
   </component>
   <component name="RunManager">
@@ -362,13 +356,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -392,30 +386,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Calls/WikiRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="157" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="51" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beskrivning.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="289">
@@ -439,9 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calls/WikiRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.js">
@@ -452,13 +420,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -484,9 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calls/WikiRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.js">
@@ -497,13 +463,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -529,9 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Calls/WikiRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.js">
@@ -542,13 +506,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -580,13 +544,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -623,13 +587,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="15" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -685,78 +649,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/FacebookOauth.js">
+    <entry file="file://$PROJECT_DIR$/Style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="3" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="489" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.appcache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state line="7" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Beskrivning.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="98" selection-start="378" selection-end="378" vertical-scroll-proportion="0.125" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rapport.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Calls/MarvelRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="237" selection-end="237" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
+        <state line="10" column="87" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Calls/WikiRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="89" selection-end="113" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="272">
+        <state line="6" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calls/MarvelRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/FacebookOauth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="21" selection-start="2645" selection-end="2645" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
+        <state line="106" column="6" selection-start="3711" selection-end="3711" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/ComicBoard.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2609" selection-start="0" selection-end="2709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="294" selection-end="294" vertical-scroll-proportion="-3.9230769" vertical-offset="51" max-vertical-offset="799">
+        <state line="1" column="24" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Style/style.css">
+    <entry file="file://$PROJECT_DIR$/manifest.appcache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="261" selection-end="261" vertical-scroll-proportion="0.20446736" vertical-offset="0" max-vertical-offset="1377">
+        <state line="10" column="1" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rapport.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="37" selection-start="6656" selection-end="6656" vertical-scroll-proportion="2.5" vertical-offset="0" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>

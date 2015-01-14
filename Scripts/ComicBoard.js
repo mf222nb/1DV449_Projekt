@@ -23,7 +23,7 @@ var ComicBoard = {
                 url: "Calls/MarvelRequest.php",
                 data: {character: character},
                 success: function(data){
-                    if(sessionStorage){
+                    if(typeof(Storage) !== "undefined"){
                         sessionStorage.setItem("marvel", data);
                         data = JSON.parse(data);
                     }
@@ -115,15 +115,15 @@ var ComicBoard = {
         if(sessionStorage && sessionStorage.getItem("marvel")){
             var data = sessionStorage.getItem("marvel");
             data = JSON.parse(data);
-
             for(var i = 0; i < data.data["results"].length; i++){
                 ComicBoard.renderCharacters(data.data["results"][i].name);
             }
 
             var content = document.getElementById("content");
-            var p = document.createElement("p");
-            p.textContent = "You are not connected to the internet, please connect to search more and see information about the characters";
-            content.appendChild(p);
+            var pTag = document.createElement("p");
+            pTag.textContent = "You seem to be offline, please connect to internet to experience the application";
+
+            content.appendChild(pTag);
         }
         else{
             var content = document.getElementById("content");
