@@ -48,8 +48,8 @@ får man som användare ett meddelande om det att det inte gick att hitta något
 <br>
 Som prestandaoptimeringar har jag gjort så att jag har en minifierad jquery och bootstrap fil som tar kortare tid att
 läsa in än om man skulle haft de vanliga filerna och sedan har jag minifierat mina egna javascript filer så att de går
-lite snabbare än vanligt. Sedan så har jag ett cache manifest som cachar ner statiska filer så att de läses från servern
-hela tiden och blir då lite snabbare.
+lite snabbare än vanligt. Sedan så har jag ett cache manifest som cachar ner statiska filer och två javascript - filer
+så att de läses från servern hela tiden och blir då lite snabbare.
 
 ###Offline-first
 
