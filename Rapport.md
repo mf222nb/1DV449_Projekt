@@ -79,3 +79,5 @@ Risker med min applikation är att om man söker på något så kan man bara sit
 på så sätt skicka en massa request till Marvels API och få ut samma svar en massa gånger. Detta kan i sin tur leda till
 att man överstiger det antal tillåtna request om dagen på Marvel och då stängs en anslutning mot det API:t ner och då
 fungerar min applikation inte längre.
+
+<img src="Schematisk bild.png"/>
