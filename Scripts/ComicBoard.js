@@ -1,6 +1,7 @@
 var ComicBoard = {
     title:undefined,
     init:function(){
+        //En koll för att se om webbläsaren är online eller offline
         if(navigator.onLine){
             ComicBoard.getComics();
             ComicBoard.getComicBook();
@@ -10,12 +11,14 @@ var ComicBoard = {
         }
     },
     getComics:function(){
+        //Fix för att göra så att enter tangenten fungerar lika bra som att trycka på knappen
         $("#character").keypress(function(event){
             if(event.keyCode == 13){
                 event.preventDefault();
                 $(".submit").click();
             }
         });
+        //För att få en post på formuläret var jag tvungen att ha en knapp istället för en submit annars skedde ingen post i AJAX
         $(".submit").click(function(){
             var character = $("#character").val();
             $.ajax({
@@ -84,6 +87,7 @@ var ComicBoard = {
             }
         })
     },
+    //Om det blir error i AJAX får man upp ett felmeddelande
     noData:function(){
         var content = document.getElementById("content");
         content.innerHTML = "";
@@ -111,6 +115,7 @@ var ComicBoard = {
             ComicBoard.getInformation();
         })
     },
+    //Om man är offline får man ut sin senaste sökning om man gjort någon annars får amn bara ett felmeddelande
     goOffline:function(){
         if(sessionStorage && sessionStorage.getItem("marvel")){
             var data = sessionStorage.getItem("marvel");

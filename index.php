@@ -8,5 +8,6 @@
 
 require_once("h2o/h2o.php");
 
+//Bibliotek för att köra vanlig html istället för php.
 $h2o = new h2o('templates/index.html');
 echo $h2o->render();
