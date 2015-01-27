@@ -18,9 +18,10 @@ h1{
 }
 
 #list{
-    max-height: 600px;
+    max-height: 400px;
     overflow-y: scroll;
     list-style: none;
+    border-radius: 2px 2px 2px 2px;
 }
 
 #list li a{
@@ -31,6 +32,7 @@ h1{
     margin-left: 20px;
     padding: 0;
     color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
 }
 
 #content a{

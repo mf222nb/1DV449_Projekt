@@ -33,6 +33,7 @@ var ComicBoard = {
                     if(data.data["results"].length === 0){
                         var content = document.getElementById("content");
                         content.innerHTML = "";
+                        $('#content').css('background', '#7f0000');
                         var pTag = document.createElement("p");
 
                         pTag.textContent = "Your search didn't match anything, please do another search";
@@ -59,6 +60,7 @@ var ComicBoard = {
                 data = JSON.parse(data);
                 var content = document.getElementById("content");
                 content.innerHTML = "";
+                $('#content').css('background', '#7f0000');
                 if(data.query.pageids != undefined){
                 var pageId = data.query.pageids[0];
                 if(pageId < 0){
@@ -91,6 +93,7 @@ var ComicBoard = {
     noData:function(){
         var content = document.getElementById("content");
         content.innerHTML = "";
+        $('#content').css('background', '#7f0000');
         var pTag = document.createElement("p");
 
         pTag.textContent = "Unfortunately there is no data to show";
@@ -101,6 +104,7 @@ var ComicBoard = {
         var list = document.getElementById("list");
         var aTag = document.createElement("a");
         var li = document.createElement("li");
+        $('#list').css('background', '#7f0000');
 
         aTag.textContent = name;
         aTag.href = "#"+name;
@@ -125,6 +129,7 @@ var ComicBoard = {
             }
 
             var content = document.getElementById("content");
+            $('#content').css('background', '#7f0000');
             var pTag = document.createElement("p");
             pTag.textContent = "You seem to be offline, please connect to internet to experience the application";
 
@@ -132,6 +137,7 @@ var ComicBoard = {
         }
         else{
             var content = document.getElementById("content");
+            $('#content').css('background', '#7f0000');
             var pTag = document.createElement("p");
             pTag.textContent = "You seem to be offline, please connect to internet to experience the application";
 
