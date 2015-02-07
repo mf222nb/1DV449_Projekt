@@ -21,6 +21,12 @@ var ComicBoard = {
         //För att få en post på formuläret var jag tvungen att ha en knapp istället för en submit annars skedde ingen post i AJAX
         $(".submit").click(function(){
             var character = $("#character").val();
+            var div = document.createElement("div");
+            var img = document.createElement("img");
+            img.src = "Pics/ajax-loader.gif";
+            div.appendChild(img);
+            div.className = "loader";
+            $('#list').prepend(div);
             $.ajax({
                 type: "POST",
                 url: "Calls/MarvelRequest.php",
@@ -37,6 +43,8 @@ var ComicBoard = {
                         var pTag = document.createElement("p");
 
                         pTag.textContent = "Your search didn't match anything, please do another search";
+
+                        $(".loader").remove();
 
                         content.appendChild(pTag);
                     }
@@ -111,7 +119,10 @@ var ComicBoard = {
         aTag.id = name;
 
         li.appendChild(aTag);
-        list.appendChild(li);
+
+        $(".loader").remove();
+
+        list.insertBefore(li, list.firstChild);
     },
     getComicBook:function(){
         $('#list').on('click', function(v){

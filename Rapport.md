@@ -61,6 +61,12 @@ gå ner och man som användare skulle ladda om sidan kan man alltid få ut sin s
 göra mycket mer än det och om inget skulle finnas i sessionstorage så får man ett meddelande som säger att man inte har
 någon anslutning till nätet så då uppmanas man att ansluta sig till internet för att ta del av applikationen.
 
+###Kända buggar
+
+Jag har en bugg som är från Wikipedias API och det är att vissa karaktärer har ingen information men ändå så har
+Wikipedia slängt in någon bild i resultatet man får tillbaka och den ser inte bra ut utan ser ut som något som inte
+är helt färdigt ut men är så som jag får ut det och jag kan inte göra så mycket åt det.
+
 ###Egen reflektion kring projektet
 
 Själva projektet har gått bra, fick ändra lite i sista stund då det blev bättre som jag har det nu än som jag hade det
